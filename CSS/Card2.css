@@ -22,17 +22,21 @@ select {
 }
 
 .card{
-    margin:180px auto;
+    margin:258px auto;
     width:380px;
     background-color:#fff;
     text-align: center;
-    padding:48px;
+    padding:38px;
     border-radius: 18px;
     box-shadow: 0 10px 32px 6px rgba(236, 234, 239, 0.5);
 }
 
+.card img{
+    width:42px;
+}
+
 .card .text_content{
-    margin: 30px auto;
+    margin: 18px 10px 40px 10px;
 }
 
 .card .text_content h1{
@@ -42,14 +46,16 @@ select {
 }
 
 .card .text_content p{
-    font-size: 14px;
+    font-size: 16px;
     color: #4F4F4F;
     padding-top:6px;
+    font-weight:500;
+    line-height: 146%;
 }
 
 .Work-btn{
     width:100%;
-    padding: 10px;
+    padding: 14px;
     background-color: F3F3F5;
     color:#212121;
     font-size: 16px;
@@ -57,12 +63,25 @@ select {
     font-weight:500;
     border:none;
     cursor: pointer;
+    text-align: left;
+    display: inline-block;
+}
+
+.Work-btn img{
+    width: 18px;
+}
+
+.Work-btn .arrow{
+    float: right;
+}
+
+.Work-btn span{ 
+    padding-left: 10px;
 }
 
 .Personal-btn{
-    margin-top: 10px;
     width:100%;
-    padding:10px;
+    padding:14px;
     color: #212121;
     font-size: 16px;
     border-radius: 8px;
@@ -70,4 +89,13 @@ select {
     border:none;
     cursor: pointer;
     background-color: transparent;
+    text-align: left;
+}
+
+.Personal-btn img{
+    width: 20px;
+}
+
+.Personal-btn span{ 
+    padding-left: 10px;
 }
