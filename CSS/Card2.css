@@ -1,3 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#EEEDF0;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
 .card{
     margin:180px auto;
     width:380px;
@@ -6,4 +29,48 @@
     padding:64px 36px 36px 36px;
     border-radius: 18px;
     box-shadow: 0 10px 32px 6px rgba(236, 234, 239, 0.5);
+}
+
+.card .text_content{
+    margin: 30px auto;
+}
+
+.card .text_content h1{
+ color:#212121;
+ font-size: 28px;
+ font-weight:600;
+}
+
+.card .text_content p{
+    font-size: 14px;
+    color:#3b3b3b;
+    padding-top:6px;
+}
+
+.Work-btn{
+    margin-top: 14px;
+    width:100%;
+    padding: 10px;
+    background-color: #6A2FFE;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight:600;
+    border:none;
+    cursor: pointer;
+    border: 1.5px solid #5728cd;
+}
+
+.Personal-btn{
+    margin-top: 14px;
+    width:100%;
+    padding: 10px;
+    background-color: #6A2FFE;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight:600;
+    border:none;
+    cursor: pointer;
+    border: 1.5px solid #5728cd;
 }
