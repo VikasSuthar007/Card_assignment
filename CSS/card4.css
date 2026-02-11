@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#EEEDF0;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+.card{
+    margin:180px auto;
+    width:400px;
+    background-color:#fff;
+    text-align: center;
+    padding:36px;
+    border-radius: 18px;
+    box-shadow: 0 10px 32px 6px rgba(236, 234, 239, 0.5);
+}
+
+.card img{
+    width:46px;
+}
+
+.card .text_content{
+    margin: 30px auto;
+}
+
+.card .text_content h1{
+ color:#212121;
+ font-size: 28px;
+ font-weight:600;
+}
+
+.card .text_content p{
+    font-size: 16px;
+    color:#3b3b3b;
+    padding-top:6px;
+    line-height: 146%;
+}
+
+.card .text_content p span{
+    font-weight:600;
+    color:#212121;
+    padding-left:4px;
+}
+
+.card input{
+    width:100%;
+    padding: 14px 14px 14px 38px;
+    border:1px solid #eaeaea;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card input:active, input:focus{
+    outline: none;
+    border:1px solid #A381E3;
+    box-shadow: 0 0 0 4px rgba(138, 75, 255, 0.06);
+}
+
+.card-btn{
+    margin-top: 14px;
+    width:100%;
+    padding: 10px;
+    background-color: #6A2FFE;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight:600;
+    border:none;
+    cursor: pointer;
+    border: 1.5px solid #5728cd;
+}
+
+.card-btn:hover{
+    background-color: #5728cd;
+    transition: 0.3s ease;
+}
+
+.inputs{
+    position: relative;
+}
+
+.inputs img{
+    position: absolute;
+    width: 24px;
+    margin:10px 0 0 10px;
+}
+
+
+.span{
+    font-size: 16px;
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 14px;
+    color:#919191;
+}
+
+.cvc{
+    padding-left: 8px;
+}
+
+.secure{
+    margin-top: 14px;
+    position: relative;
+    padding:14px;
+    text-align: left;
+}
+
+.secure img{
+width:20px;
+float:left;
+left: 0;
+margin-left:61px;
+}
+
+.secure p{
+    margin:2px 0 0 84px;
+}
+
+
+
+
